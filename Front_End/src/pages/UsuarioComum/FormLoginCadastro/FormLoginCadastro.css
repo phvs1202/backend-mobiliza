@@ -1,0 +1,199 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('/images/logincadastrobackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}
+
+.descricao {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container-form {
+  width: 525px;
+  background-color: #fff;
+  box-shadow: 0px 0px 39px -5px rgba(0, 0, 0, 0.86);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 40px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+input:not([type="radio"]) {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #dfdfdf;
+  margin-bottom: 31px;
+  box-shadow: 0px 0px 11px -5px rgba(0, 0, 0, 0.86);
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+.tipo {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #dfdfdf;
+  margin-bottom: 31px;
+  box-shadow: 0px 0px 11px -5px rgba(0, 0, 0, 0.86);
+  border-radius: 5px;
+}
+
+.criar {
+  background-color: #d42424;
+  font-style: italic;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  width: 100%;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.radio-item {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+
+.radio-item input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-radio {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #fff;
+  border: 2px solid #888;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.radio-item input:checked~.custom-radio {
+  background-color: rgb(204, 0, 0);
+  border-color: rgb(204, 0, 0);
+}
+
+.custom-radio::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio-item input:checked~.custom-radio::after {
+  display: block;
+}
+
+.radio-item .custom-radio::after {
+  top: 4px;
+  left: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+}
+
+.mudar-container {
+  text-align: center;
+  margin-top: 13px;
+  font-size: 20px;
+}
+
+input[type="checkbox"].vermelho-checkbox {
+    width: 18px;
+    height: 18px;
+    accent-color: gray;
+    cursor: pointer;
+}
+
+input[type="checkbox"].vermelho-checkbox:checked {
+    accent-color: red;
+}
+
+@media (max-width: 768px) {
+  .container-form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 30px auto;
+  }
+
+  .descricao {
+    font-size: 22px;
+  }
+
+  input:not([type="radio"]),
+  .tipo,
+  .criar {
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .modal-content {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  .mudar-container {
+    font-size: 18px;
+  }
+
+  .radio-item {
+    font-size: 14px;
+  }
+
+  .custom-radio {
+    width: 16px;
+    height: 16px;
+    top: 3px;
+  }
+
+  .radio-item .custom-radio::after {
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+  }
+}

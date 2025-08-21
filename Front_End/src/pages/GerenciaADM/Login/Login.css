@@ -1,0 +1,22 @@
+.login-gerencia-main {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1200px) {
+    .logo-1, .logo-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-1, .logo-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-1, .logo-2 {
+        display: none;
+    }
+}

@@ -1,0 +1,98 @@
+.main-contato {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.texto-contato {
+    width: 90%; /* em vez de vh fixo */
+    max-width: 1200px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 0px 0px 70px -5px rgba(0,0,0,0.86);
+    font-size: 20px;
+}
+
+.texto-contato h1 {
+    font-size: 4rem;
+}
+
+.texto-contato p {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.texto-contato-interno {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.texto-contato-interno p {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    text-align: center;
+    margin: 30px;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .texto-contato {
+        padding: 20px;
+    }
+
+    .texto-contato h1 {
+        font-size: 2.5rem;
+    }
+
+    .texto-contato p,
+    .texto-contato-interno p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .texto-contato {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .texto-contato h1 {
+        font-size: 2rem;
+    }
+
+    .texto-contato p,
+    .texto-contato-interno p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .texto-contato {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.6);
+    }
+
+    .texto-contato h1 {
+        font-size: 3.5rem;
+    }
+
+    .texto-contato p,
+    .texto-contato-interno p {
+        font-size: 0.9rem;
+        margin: 15px;
+    }
+
+    .email-text {
+        font-size: 1.2rem;
+    }
+}

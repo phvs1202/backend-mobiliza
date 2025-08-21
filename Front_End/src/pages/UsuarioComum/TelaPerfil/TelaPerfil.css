@@ -1,0 +1,318 @@
+.titulo-perfil {
+    font-size: 50px;
+    color: #721111;
+    margin: 25px;
+    font-weight: bold;
+}
+
+.linha-titulo-perfil {
+    width: 20%;
+    margin-left: 25px;
+    border: 2px solid rgb(189, 140, 140);
+}
+
+.perfil-container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.informacoes-perfil hr {
+    width: 60%;
+    display: flex;
+    margin: 10px auto;
+}
+
+.mudar-button {
+    background-color: #ff1919;
+    font-style: italic;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    width: 100%;
+    max-width: 280px; /* limite no desktop */
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.mudar-button:hover {
+    background-color: #a03131;
+}
+
+.foto-user {
+    display: flex;
+    flex-direction: column; /* força o botão ir para baixo da foto */
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px; /* limite para não esticar demais */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.user-perfil-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.cracha-perfil {
+    width: 100vh;
+    height: 100%;
+    margin: 20px;
+}
+
+.container-re1 {
+    width: 100%;
+    height: 9vh;
+}
+
+.container-re2 {
+    width: 100%;
+    height: 50vh;
+    padding: 2vh;
+}
+
+.informacoes-perfil {
+    width: 100vh;
+    height: 100%;
+    margin: 20px;
+    padding: 80px;
+}
+
+.informacoes-texto {
+    font-size: 30px;
+    padding: 20px;
+    border: 2px solid rgba(140, 167, 189, 0.27);
+    background-color: #ffffff83;
+    border-radius: 2px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.86);
+}
+
+.main-perfil {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.qr-code {
+    width: 45vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.qr-code-aviso {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.btn-criar {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ea0f0f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-criar:hover {
+    background-color: #a03131;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.logo-cracha {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.qr-code-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code-grande {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+}
+
+.nome-cracha {
+    margin-top: 20px;
+    font-size: 50px;
+    color: #721111;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fullscreen-user-icon {
+    margin-right: 10px;
+}
+
+.quit-fullscreen-user-icon {
+    margin-right: 10px;
+}
+
+.user-perfil-icon {
+    margin-right: 18px;
+    margin-bottom: 15px;
+}
+
+.user-email-perfil-icon {
+    margin-right: 18px;
+    margin-bottom: 15px;
+}
+
+.user-course-perfil-icon {
+    margin-right: 18px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .qr-code {
+        width: unset !important;
+        width: 100% !important;
+    }
+
+    .tela-cheia {
+        width: unset !important;
+        width: 40vh !important;
+        height: unset !important;
+        padding: 10px;
+    }
+
+    .tela-cheia-container {
+        width: unset !important;
+        width: 100% !important;
+    }
+
+    .selecao-veiculo {
+        width: unset !important;
+        width: 100% !important;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .aviso-foto {
+        margin-left: unset !important;
+        margin-left: 12.5vh !important;
+        margin-right: 10px;
+        width: 130px;
+    }
+
+    .titulo-perfil {
+        font-size: 35px;
+        text-align: center;
+        margin: 15px 10px;
+        margin-top: 30px;
+    }
+
+    .linha-titulo-perfil {
+        width: 80%;
+        margin: 0 auto 20px auto;
+    }
+
+    .perfil-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .cracha-perfil,
+    .informacoes-perfil {
+        width: 100%;
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    .informacoes-texto {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .qr-code {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .qr-code-aviso {
+        font-size: 20px;
+        margin: 20px 0;
+        padding: 0 10px;
+    }
+
+    .btn-expandir,
+    .btn-recolher {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .cartao-identificacao {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .nome-cracha {
+        font-size: 30px;
+    }
+
+    .qr-code-grande {
+        width: 150px;
+        height: 150px;
+    }
+
+    .container-re1,
+    .container-re2 {
+        height: auto;
+    }
+
+    .foto-user {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .user-perfil-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .mudar-button {
+        width: 90%;
+        max-width: none;
+        font-size: 16px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensUsuarios\\23.jpg",
+      "PackagePath": "staticwebassets\\ImagensUsuarios\\23.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensUsuarios\\24.jpg",
+      "PackagePath": "staticwebassets\\ImagensUsuarios\\24.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensUsuarios\\26.jpg",
+      "PackagePath": "staticwebassets\\ImagensUsuarios\\26.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensUsuarios\\27.jpg",
+      "PackagePath": "staticwebassets\\ImagensUsuarios\\27.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensUsuarios\\33.jpg",
+      "PackagePath": "staticwebassets\\ImagensUsuarios\\33.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensUsuarios\\35.jpg",
+      "PackagePath": "staticwebassets\\ImagensUsuarios\\35.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensUsuarios\\36.jpg",
+      "PackagePath": "staticwebassets\\ImagensUsuarios\\36.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensVeiculos\\1.jpg",
+      "PackagePath": "staticwebassets\\ImagensVeiculos\\1.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensVeiculos\\32.jpg",
+      "PackagePath": "staticwebassets\\ImagensVeiculos\\32.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensVeiculos\\33.jpg",
+      "PackagePath": "staticwebassets\\ImagensVeiculos\\33.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensVeiculos\\36.jpg",
+      "PackagePath": "staticwebassets\\ImagensVeiculos\\36.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensVeiculos\\37.jpg",
+      "PackagePath": "staticwebassets\\ImagensVeiculos\\37.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensVeiculos\\39.jpg",
+      "PackagePath": "staticwebassets\\ImagensVeiculos\\39.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\ImagensVeiculos\\40.jpg",
+      "PackagePath": "staticwebassets\\ImagensVeiculos\\40.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\QRCodeImagens\\Data-05-08-2025 14;01 ; Placa-ABC2D4.jpg",
+      "PackagePath": "staticwebassets\\QRCodeImagens\\Data-05-08-2025 14;01 ; Placa-ABC2D4.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\QRCodeImagens\\Data-07-08-2025 09;39 ; Placa-ABC2D19.jpg",
+      "PackagePath": "staticwebassets\\QRCodeImagens\\Data-07-08-2025 09;39 ; Placa-ABC2D19.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\QRCodeImagens\\Data-07-08-2025 10;22 ; Placa-ABC2D19.jpg",
+      "PackagePath": "staticwebassets\\QRCodeImagens\\Data-07-08-2025 10;22 ; Placa-ABC2D19.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\QRCodeImagens\\Data-07-08-2025 10;23 ; Placa-ABC2D19.jpg",
+      "PackagePath": "staticwebassets\\QRCodeImagens\\Data-07-08-2025 10;23 ; Placa-ABC2D19.jpg"
+    },
+    {
+      "Id": "C:\\MobilizaAPI\\wwwroot\\QRCodeImagens\\Data-19-08-2025 11;22 ; Placa-ASDFAAS12.jpg",
+      "PackagePath": "staticwebassets\\QRCodeImagens\\Data-19-08-2025 11;22 ; Placa-ASDFAAS12.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MobilizaAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MobilizaAPI.props",
+      "PackagePath": "build\\MobilizaAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MobilizaAPI.props",
+      "PackagePath": "buildMultiTargeting\\MobilizaAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MobilizaAPI.props",
+      "PackagePath": "buildTransitive\\MobilizaAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,386 @@
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\appsettings.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.exe
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.deps.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.runtimeconfig.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.pdb
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Google.Protobuf.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MySql.Data.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MySqlConnector.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\QRCoder.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Private.Windows.Core.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\ZstdSharp.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.AssemblyReference.cache
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfoInputs.cache
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfo.cs
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.CoreCompileInputs.cache
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.sourcelink.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\scopedcss\bundle\MobilizaAPI.styles.css
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\Mobiliza.E4064260.Up2Date
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\refint\MobilizaAPI.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.pdb
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.genruntimeconfig.cache
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\ref\MobilizaAPI.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\appsettings.json
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.exe
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.deps.json
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.runtimeconfig.json
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.pdb
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Google.Protobuf.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MySql.Data.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MySqlConnector.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\QRCoder.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Private.Windows.Core.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\ZstdSharp.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.AssemblyReference.cache
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfoInputs.cache
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfo.cs
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.CoreCompileInputs.cache
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.sourcelink.json
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.MobilizaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MobilizaAPI.props
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MobilizaAPI.props
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MobilizaAPI.props
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\scopedcss\bundle\MobilizaAPI.styles.css
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\Mobiliza.E4064260.Up2Date
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\refint\MobilizaAPI.dll
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.pdb
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.genruntimeconfig.cache
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\ref\MobilizaAPI.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.staticwebassets.runtime.json
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.staticwebassets.runtime.json
+C:\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.staticwebassets.endpoints.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\ProjetoMobilizaSENAI\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.staticwebassets.runtime.json
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.exe
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.deps.json
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.runtimeconfig.json
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.pdb
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\QRCoder.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Private.Windows.Core.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.AssemblyReference.cache
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfoInputs.cache
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfo.cs
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.CoreCompileInputs.cache
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.sourcelink.json
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.MobilizaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MobilizaAPI.props
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MobilizaAPI.props
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MobilizaAPI.props
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\scopedcss\bundle\MobilizaAPI.styles.css
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\Mobiliza.E4064260.Up2Date
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\refint\MobilizaAPI.dll
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.pdb
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.genruntimeconfig.cache
+C:\Users\Iago\OneDrive - SESISENAISP - Escolas\SENAI lençois\Nova pasta\iago-games\MobilizaVeiculos\backend\MobilizaAPI\MobilizaAPI\obj\Debug\net8.0\ref\MobilizaAPI.dll
+C:\MobilizaAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\MobilizaAPI\bin\Debug\net8.0\appsettings.json
+C:\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.staticwebassets.runtime.json
+C:\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.exe
+C:\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.deps.json
+C:\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.runtimeconfig.json
+C:\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.dll
+C:\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.pdb
+C:\MobilizaAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\MobilizaAPI\bin\Debug\net8.0\Google.Protobuf.dll
+C:\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\MobilizaAPI\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\MobilizaAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\MobilizaAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\MobilizaAPI\bin\Debug\net8.0\MySql.Data.dll
+C:\MobilizaAPI\bin\Debug\net8.0\MySqlConnector.dll
+C:\MobilizaAPI\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\MobilizaAPI\bin\Debug\net8.0\QRCoder.dll
+C:\MobilizaAPI\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\MobilizaAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\MobilizaAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\MobilizaAPI\bin\Debug\net8.0\System.Private.Windows.Core.dll
+C:\MobilizaAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\MobilizaAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\MobilizaAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\MobilizaAPI\bin\Debug\net8.0\ZstdSharp.dll
+C:\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.AssemblyReference.cache
+C:\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfoInputs.cache
+C:\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfo.cs
+C:\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.CoreCompileInputs.cache
+C:\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\MobilizaAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\MobilizaAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.MobilizaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MobilizaAPI.props
+C:\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MobilizaAPI.props
+C:\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MobilizaAPI.props
+C:\MobilizaAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\MobilizaAPI\obj\Debug\net8.0\scopedcss\bundle\MobilizaAPI.styles.css
+C:\MobilizaAPI\obj\Debug\net8.0\Mobiliza.E4064260.Up2Date
+C:\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.dll
+C:\MobilizaAPI\obj\Debug\net8.0\refint\MobilizaAPI.dll
+C:\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.pdb
+C:\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.genruntimeconfig.cache
+C:\MobilizaAPI\obj\Debug\net8.0\ref\MobilizaAPI.dll
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.dll
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\refint\MobilizaAPI.dll
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.pdb
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\appsettings.json
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Front_End\package-lock.json
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Front_End\package.json
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.staticwebassets.runtime.json
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.exe
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.deps.json
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.runtimeconfig.json
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.pdb
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MySql.Data.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MySqlConnector.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\QRCoder.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Private.Windows.Core.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\ZstdSharp.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.AssemblyReference.cache
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfoInputs.cache
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfo.cs
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.CoreCompileInputs.cache
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.sourcelink.json
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.MobilizaAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MobilizaAPI.props
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MobilizaAPI.props
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MobilizaAPI.props
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\scopedcss\bundle\MobilizaAPI.styles.css
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\Mobiliza.E4064260.Up2Date
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.genruntimeconfig.cache
+C:\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\ref\MobilizaAPI.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\appsettings.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Front_End\package.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Front_End\package-lock.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\package-lock.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.staticwebassets.runtime.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.staticwebassets.endpoints.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.exe
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.deps.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.runtimeconfig.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MobilizaAPI.pdb
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Google.Protobuf.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MySql.Data.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\MySqlConnector.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\QRCoder.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Private.Windows.Core.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\ZstdSharp.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.AssemblyReference.cache
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfoInputs.cache
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.AssemblyInfo.cs
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.csproj.CoreCompileInputs.cache
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.sourcelink.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\scopedcss\bundle\MobilizaAPI.styles.css
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\Mobiliza.E4064260.Up2Date
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\refint\MobilizaAPI.dll
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.pdb
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\MobilizaAPI.genruntimeconfig.cache
+C:\ProjetoMobilizaSENAI\Mobiliza_GerSite\MobilizaAPI\obj\Debug\net8.0\ref\MobilizaAPI.dll

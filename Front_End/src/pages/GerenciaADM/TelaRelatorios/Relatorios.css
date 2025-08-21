@@ -1,0 +1,239 @@
+.relatorios-main {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    flex: 1;
+}
+
+.logout-button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #c81414;
+  color: white;
+  box-shadow: 0 0 8px #c81414;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 11.5vh;
+  right: 5vh;
+}
+
+.logout-button:hover {
+  background-color: #610f0f;
+}
+
+.titulo-relatorio {
+    font-size: 50px;
+    color: #721111;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.linha-titulo-relatorio {
+    width: 10%;
+    border: 2px solid rgb(189, 140, 140);
+    margin-left: 30px;
+}
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-pesquisa {
+    width: 800px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;   /* ou o limite desejado para telas grandes */
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+h5 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.campo-pesquisa {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    max-width: 900px;
+    width: 100%;
+    padding: 18px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(34, 34, 34, 0.08);
+    background: linear-gradient(#f8f9fa 60%, #dcdcde 100%);
+    position: sticky;
+    top: 10vh;
+    z-index: 10;
+    border: 1.5px solid #e0e0e0;
+}
+
+.campo-pesquisa input {
+    padding: 10px;
+    flex: 1;                        /* ocupa o espaço disponível */
+    min-width: 200px;               /* largura mínima */
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+.campo-pesquisa select {
+    padding: 10px;
+    flex: 1;                        /* ocupa o espaço disponível */
+    min-width: 200px;
+    height: 50px;
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #dfdfdf;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.86);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+.container .tabela-relatorios {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.container .tabela-relatorios th,
+.container .tabela-relatorios td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+.container .tabela-relatorios th {
+    background-color: #f2f2f2;
+}
+
+/* === Responsividade Geral === */
+@media (max-width: 1200px) {
+    .titulo-relatorio {
+        font-size: 42px;
+        margin: 8px;
+    }
+    .linha-titulo-relatorio {
+        width: 25%;
+    }
+    .input-pesquisa {
+        width: 600px;
+        padding: 8px;
+    }
+    .campo-pesquisa {
+        padding: 16px 20px;
+        gap: 12px;
+    }
+    .campo-pesquisa input,
+    .campo-pesquisa select {
+        min-width: 150px;
+        margin: 15px;
+    }
+    .logout-button {
+        top: 10vh;
+        right: 4vh;
+        font-size: 0.95rem;
+    }
+    .container {
+        max-width: 1000px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo-relatorio {
+        font-size: 34px;
+    }
+    .linha-titulo-relatorio {
+        width: 35%;
+    }
+    .input-pesquisa {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+    .campo-pesquisa {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+        padding: 12px 16px;
+    }
+    .campo-pesquisa input,
+    .campo-pesquisa select {
+        width: 100%;
+        margin: 8px 0;
+    }
+    .logout-button {
+        top: 9vh;
+        right: 3vh;
+        font-size: 0.9rem;
+    }
+    .container {
+        padding: 6px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo-relatorio {
+        font-size: 28px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .linha-titulo-relatorio {
+        width: 35%;
+    }
+    .input-pesquisa {
+        width: 100%;
+        padding: 6px;
+        margin-bottom: 10px;
+    }
+    .campo-pesquisa {
+        padding: 10px 12px;
+        gap: 8px;
+    }
+    .campo-pesquisa input,
+    .campo-pesquisa select {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .logout-button {
+        top: 8vh;
+        right: 2vh;
+        font-size: 0.85rem;
+    }
+    .container {
+        padding: 4px;
+        margin-top: 30px;
+    }
+    .container .tabela-relatorios th,
+    .container .tabela-relatorios td {
+        padding: 6px;
+        font-size: 0.85rem;
+    }
+}

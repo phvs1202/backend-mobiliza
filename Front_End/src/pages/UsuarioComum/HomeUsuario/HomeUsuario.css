@@ -1,0 +1,407 @@
+.presentation-home {
+    height: 155px;
+    width: 100%;
+    background-image: url('/images/presentation_home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0px 0px 30px -5px #931616; 
+    margin-bottom: 40px;
+}
+
+.presentation-home h1 {
+    position: absolute;
+    margin: 30px;
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff0000, #fd6868, #f7aeae);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.main-home {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.botoes-container {
+  position: absolute;
+  margin-top: 95px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.botoes-container button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #c81414;
+  color: white;
+  box-shadow: 0 0 8px #c81414;
+  transition: background-color 0.3s ease;
+}
+
+.botoes-container button:hover {
+  background-color: #610f0f;
+}
+
+.logout-home-icon {
+    margin-right: 4px;
+}
+
+.user-home-icon {
+    margin-right: 5px;
+}
+
+.add-home-icon {
+    margin-right: 5px;
+    transform: scale(1.2);
+}
+
+.remove-home-icon {
+    margin-right: 5px;
+    transform: scale(1.2);
+}
+
+.check-home-icon {
+    margin-right: 5px;
+    transform: scale(1.2);
+}
+
+.veiculo-home-icon {
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.placa-home-icon {
+    margin-right: 20px;
+    border-radius: 4px;
+    width: 130px;
+}
+
+.section-home h2 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #721111;
+}
+
+.titulo-home {
+    font-size: 50px;
+    color: #721111;
+    margin: 25px;
+    font-weight: bold;
+}
+
+.veiculos-container-home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-start;
+}
+
+.veiculo-bloco {
+    width: 70vh;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.veiculo-bloco select {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 31px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.86);
+    border-radius: 5px;
+}
+
+.placa-radio {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.placa-radio label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #333;
+}
+
+.placa-radio input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  transition: border 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.placa-radio input[type="radio"]::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.2s ease-in-out;
+  background-color: #ff0000;
+}
+
+.placa-radio input[type="radio"]:checked {
+  border-color: #ff0000;
+}
+
+.placa-radio input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.input-desativado {
+    opacity: 0.2;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.button-adicionar-home {
+    background-color: #3f88d7;
+    font-style: italic;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    width: 65vh;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.button-adicionar-home:hover {
+    background-color: #3167a0;
+}
+
+.button-cadastrar-home {
+    background-color: #24d44a;
+    font-style: italic;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    width: 65vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-cadastrar-home:hover {
+    background-color: #1b9735;
+}
+
+.button-remover-home {
+    background-color: #d42424;
+    font-style: italic;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+
+.button-remover-home:hover {
+    background-color: #a21c1c;
+}
+
+.button-cancelar-home {
+    background-color: #d42424;
+    font-style: italic;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    width: 30vh;
+}
+
+.button-cancelar-home:hover {
+    background-color: #a21c1c;
+}
+
+.tabela-veiculos-container {
+    padding: 30px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.tabela-veiculos {
+    min-width: 30vh;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #f5cece;
+}
+
+.tabela-veiculos th, .tabela-veiculos td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000;
+}
+
+.tabela-veiculos th {
+    background-color: #e0e0e0;
+}
+
+.linha-titulo-home {
+    width: 40%;
+    margin-left: 25px;
+    border: 2px solid rgb(189, 140, 140);
+}
+
+.form-cnh-home {
+    width: 45%;
+    margin: 0 auto;
+    background-color: rgba(189, 140, 140, 0.112);
+    padding: 30px;
+    border-radius: 2px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.86);
+}
+
+.form-cnh-radio-home {
+    margin: 20px;
+}
+
+.radio-cnh-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-cnh-home input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  transition: border 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.form-cnh-home input[type="checkbox"]::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.2s ease-in-out;
+  background-color: #ff0000;
+}
+
+.form-cnh-home input[type="checkbox"]:checked {
+  border-color: #ff0000;
+}
+
+.form-cnh-home input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}
+
+@media (max-width: 768px) {
+    .form-cnh-home {
+        width: 100%;
+    }
+
+    .button-cadastrar-home {
+        width: 30vh;
+    }
+
+    .button-adicionar-home {
+        width: 35vh;
+    }
+
+    .button-remover-home {
+        width: 30vh;
+    }
+
+    .presentation-home {
+        height: 30vh;
+    }
+
+    .presentation-home h1 {
+        font-size: 4.5vh;
+    }
+
+    .botoes-container {
+        margin-top: 22vh;
+    }
+
+    .titulo-home {
+        font-size: 5vh;
+    }
+
+    .button-remover-home {
+        margin: 0;
+    }
+
+    .tabela-veiculos-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .tabela-veiculos {
+        width: 100%;
+        min-width: 600px;
+        font-size: 14px;
+    }
+    
+    .tabela-veiculos th,
+    .tabela-veiculos td {
+        padding: 8px;
+    }
+
+    .veiculo-home-icon {
+        margin: auto;
+        margin-right: 5px;
+    }
+
+    .placa-home-icon {
+        margin: auto;
+        margin-right: 10px;
+    }
+}
