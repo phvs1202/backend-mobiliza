@@ -15,24 +15,18 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
 // CORS - permite frontend de produção e localhost
+// CORS - permite qualquer origem
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
         policy
-            .WithOrigins(
-                "https://mobiliza-gersite.onrender.com",
-                "https://mobilizasenailp-3hyec7d9d-iagoprogramers-projects.vercel.app",
-                "https://mobilizasenailp.vercel.app",// produção
-                "http://localhost:3000",                 // frontend local
-                "https://localhost:3000",
-                 "http://localhost:5173"  , 
-                 "http://localhost:5174"        // frontend local https
-            )
+            .AllowAnyOrigin()
             .AllowAnyMethod()
             .AllowAnyHeader();
     });
 });
+
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
