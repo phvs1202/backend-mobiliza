@@ -9,24 +9,29 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
     WebRootPath = "wwwroot"
 });
 
-
 // Logging
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
 // CORS - permite frontend de produção e localhost
-// CORS - permite qualquer origem
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
         policy
-            .AllowAnyOrigin()
+            .WithOrigins(
+                "https://mobiliza-gersite.onrender.com",
+                "https://mobilizasenailp-3hyec7d9d-iagoprogramers-projects.vercel.app",
+                "https://mobilizasenailp.vercel.app", // produção
+                "http://localhost:3000",
+                "https://localhost:3000",
+                "http://localhost:5173",
+                "http://localhost:5174"
+            )
             .AllowAnyMethod()
             .AllowAnyHeader();
     });
 });
-
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -56,6 +61,11 @@ builder.Services.AddDbContext<DBMobilizaContext>(options =>
 }, ServiceLifetime.Scoped);
 
 var app = builder.Build();
+
+// === Criar pastas essenciais na inicialização ===
+var webRoot = app.Environment.WebRootPath ?? Path.Combine(app.Environment.ContentRootPath, "wwwroot");
+Directory.CreateDirectory(Path.Combine(webRoot, "ImagensVeiculos"));
+Directory.CreateDirectory(Path.Combine(webRoot, "QRCodeImagens"));
 
 // Middleware
 if (app.Environment.IsDevelopment())
