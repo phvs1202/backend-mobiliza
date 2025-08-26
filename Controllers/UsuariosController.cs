@@ -13,7 +13,6 @@ using System.Drawing.Imaging;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 using SixLabors.ImageSharp.Formats;
-using System.Text;
 
 namespace MobilizaAPI.Controllers
 {
@@ -27,7 +26,7 @@ namespace MobilizaAPI.Controllers
             _dbContext = dbContext;
         }
 
-        [HttpGet("TodosUser")]
+        [HttpGet("TodosUser")] //Trazer todos os usuários
         public async Task<ActionResult<IEnumerable<usuarios>>> Get()
         {
             try
@@ -41,17 +40,16 @@ namespace MobilizaAPI.Controllers
             }
         }
 
-        [HttpPost("LoginUser")]
+        [HttpPost("LoginUser")] //Login do usuário
         public IActionResult Login([FromBody] LoginRequest login)
         {
             try
             {
                 var usuario = _dbContext.usuarios.FirstOrDefault(u => u.email == login.Email);
 
+                // Verifica se o usuario existe e se a senha está correta
                 if (usuario == null || !PasswordHasher.VerifyPassword(login.Senha, usuario.senha))
                     return Unauthorized(new { message = "Email ou senha incorretos!" });
-
-                string fotoBase64 = usuario.foto_de_perfil != null ? Convert.ToBase64String(usuario.foto_de_perfil) : null;
 
                 return Ok(new
                 {
@@ -63,7 +61,7 @@ namespace MobilizaAPI.Controllers
                         email = usuario.email,
                         tipo_usuario = usuario.tipo_usuario_id,
                         curso_id = usuario.curso_id,
-                        foto_de_perfil = fotoBase64 != null ? $"data:image/jpeg;base64,{fotoBase64}" : null
+                        foto_de_perfil = usuario.foto_de_perfil
                     }
                 });
             }
@@ -73,7 +71,7 @@ namespace MobilizaAPI.Controllers
             }
         }
 
-        [HttpPost("CadastroUser")]
+        [HttpPost("CadastroUser")] //Cadastrar usuário
         public async Task<ActionResult<usuarios>> CriarUser([FromBody] usuarios User)
         {
             try
@@ -86,7 +84,7 @@ namespace MobilizaAPI.Controllers
                 User.status_id = 1;
 
                 _dbContext.usuarios.Add(User);
-                await _dbContext.SaveChangesAsync();
+                _dbContext.SaveChanges();
             }
             catch (Exception ex)
             {
@@ -95,7 +93,7 @@ namespace MobilizaAPI.Controllers
             return Ok(User);
         }
 
-        [HttpGet("qtdUser")]
+        [HttpGet("qtdUser")] //Quantidade de usuarios
         public async Task<ActionResult<IEnumerable<usuarios>>> quantidade()
         {
             try
@@ -123,6 +121,37 @@ namespace MobilizaAPI.Controllers
             }
         }
 
+        [HttpGet("RetornarFoto/{id}")] // Retorna caminho da foto do usuário
+        public async Task<ActionResult<string>> GetFoto(int id)
+        {
+            try
+            {
+                var usuario = await _dbContext.usuarios.FindAsync(id);
+
+                if (usuario == null || string.IsNullOrEmpty(usuario.foto_de_perfil))
+                    return NotFound("Usuário não encontrado ou sem foto.");
+
+                // Caminho relativo à pasta wwwroot
+                var caminhoRelativo = $"ImagensUsuarios/{usuario.foto_de_perfil}";
+                return Ok(caminhoRelativo);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
+        
+        private string GetImagemBase64(int id)
+        {
+            var pastaImagens = Path.Combine(Directory.GetCurrentDirectory(), "ImagensUsuarios");
+            var caminhoImagem = Path.Combine(pastaImagens, $"{id}.jpg");
+            var url = caminhoImagem.Replace("\\", "/");
+
+            Console.WriteLine("caminho da imagem: ", caminhoImagem);
+
+            return url;
+        }
+        
         [HttpPost("UploadFoto/{id}")]
         public async Task<IActionResult> UploadFoto(int id, IFormFile arquivo)
         {
@@ -135,50 +164,41 @@ namespace MobilizaAPI.Controllers
                 if (arquivo == null || arquivo.Length == 0)
                     return BadRequest("Arquivo inválido.");
 
+                //garante que a pasta existe
+                var pasta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "ImagensUsuarios");
+                if (!Directory.Exists(pasta))
+                    Directory.CreateDirectory(pasta);
+
                 using var image = await Image.LoadAsync(arquivo.OpenReadStream());
-                if (image.Width > 400 || image.Height > 400)
+                if (image.Width >= 400 || image.Height >= 400)
                     return BadRequest("A imagem deve ter menos de 400x400 pixels!");
 
-                // Converte a imagem em bytes para salvar no banco
-                using var ms = new MemoryStream();
-                await arquivo.CopyToAsync(ms);
-                usuario.foto_de_perfil = ms.ToArray();
+                //nome único para o arquivo
+                string extensao = Path.GetExtension(arquivo.FileName);
+                if (string.IsNullOrEmpty(extensao) || extensao != ".jpg")
+                    return BadRequest("Extensão do arquivo não permitida!");
 
+                var nomeArquivo = $"{id}{extensao}";
+                var caminhoCompleto = Path.Combine(pasta, nomeArquivo);
+
+                //salva o arquivo
+                using (var stream = new FileStream(caminhoCompleto, FileMode.Create))
+                {
+                    await arquivo.CopyToAsync(stream);
+                }
+
+                //atualiza o caminho da foto no usuário
+                usuario.foto_de_perfil = nomeArquivo;
                 _dbContext.Update(usuario);
                 await _dbContext.SaveChangesAsync();
 
-                string fotoBase64 = Convert.ToBase64String(usuario.foto_de_perfil);
-
-                return Ok(new
-                {
-                    message = "Foto enviada com sucesso!",
-                    arquivo = $"data:image/jpeg;base64,{fotoBase64}"
-                });
+                return Ok(new { message = "Foto enviada com sucesso!", arquivo = nomeArquivo });
             }
             catch (Exception ex)
             {
                 return StatusCode(500, $"Erro interno: {ex.Message}");
             }
         }
-
-        [HttpGet("RetornarFoto/{id}")]
-        public async Task<ActionResult<string>> GetFoto(int id)
-        {
-            try
-            {
-                var usuario = await _dbContext.usuarios.FindAsync(id);
-                if (usuario == null || usuario.foto_de_perfil == null)
-                    return NotFound("Usuário não encontrado ou sem foto.");
-
-                string fotoBase64 = Convert.ToBase64String(usuario.foto_de_perfil);
-                return Ok($"data:image/jpeg;base64,{fotoBase64}");
-            }
-            catch (Exception ex)
-            {
-                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-            }
-        }
-
         
         //[HttpGet("UserEspecifico/{id}")] //Trazer usuário específico
         //public async Task<ActionResult<IEnumerable<usuarios>>> GetUser(int id)
