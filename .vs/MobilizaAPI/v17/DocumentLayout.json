@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\backend-mobiliza\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "VeiculosController.cs",
+              "DocumentMoniker": "C:\\backend-mobiliza\\Controllers\\VeiculosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VeiculosController.cs",
+              "ToolTip": "C:\\backend-mobiliza\\Controllers\\VeiculosController.cs",
+              "RelativeToolTip": "Controllers\\VeiculosController.cs",
+              "ViewState": "AQIAANAAAAAAAAAAAADwv9wAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T18:00:30.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\backend-mobiliza\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:43:08.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T17:43:08.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CursoController.cs",
               "DocumentMoniker": "C:\\backend-mobiliza\\Controllers\\CursoController.cs",
               "RelativeDocumentMoniker": "Controllers\\CursoController.cs",

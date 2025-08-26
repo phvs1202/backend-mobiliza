@@ -193,5 +193,34 @@ namespace MobilizaAPI.Controllers
                 return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
             }
         }
+
+        [HttpGet("qtdVeiculos")] //Quantidade de veiculos
+        public async Task<ActionResult<IEnumerable<veiculos>>> quantidade()
+        {
+            try
+            {
+                var contagem = await _dbContext.veiculos
+                    .GroupBy(i => i.tipo_veiculo_id)
+                    .Select(i => new
+                    {
+                        Tipo = i.Key,
+                        Quantidade = i.Count()
+                    }).ToListAsync();
+
+                var resultado = new
+                {
+                    Carro = contagem.FirstOrDefault(i => i.Tipo == 1)?.Quantidade ?? 0,
+                    Moto = contagem.FirstOrDefault(i => i.Tipo == 2)?.Quantidade ?? 0,
+                    Van = contagem.FirstOrDefault(i => i.Tipo == 3)?.Quantidade ?? 0,
+                    Caminhao = contagem.FirstOrDefault(i => i.Tipo == 4)?.Quantidade ?? 0
+                };
+
+                return Ok(resultado);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
     }
 }
