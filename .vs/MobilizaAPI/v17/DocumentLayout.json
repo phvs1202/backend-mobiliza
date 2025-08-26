@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\backend-mobiliza\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\controllers\\entradacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:controllers\\entradacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EntradaController.cs",
+              "DocumentMoniker": "C:\\backend-mobiliza\\Controllers\\EntradaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EntradaController.cs",
+              "ToolTip": "C:\\backend-mobiliza\\Controllers\\EntradaController.cs",
+              "RelativeToolTip": "Controllers\\EntradaController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowCwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:42:41.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "VeiculosController.cs",
               "DocumentMoniker": "C:\\backend-mobiliza\\Controllers\\VeiculosController.cs",
               "RelativeDocumentMoniker": "Controllers\\VeiculosController.cs",
               "ToolTip": "C:\\backend-mobiliza\\Controllers\\VeiculosController.cs",
               "RelativeToolTip": "Controllers\\VeiculosController.cs",
-              "ViewState": "AQIAANAAAAAAAAAAAADwv9wAAAANAAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAYwOAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T18:00:30.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\backend-mobiliza\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CursoController.cs",
               "DocumentMoniker": "C:\\backend-mobiliza\\Controllers\\CursoController.cs",
               "RelativeDocumentMoniker": "Controllers\\CursoController.cs",
@@ -63,8 +80,7 @@
               "RelativeToolTip": "Controllers\\CursoController.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAswDkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:34:48.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T17:34:48.03Z"
             }
           ]
         },
