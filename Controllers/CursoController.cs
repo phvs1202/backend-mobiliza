@@ -46,7 +46,7 @@ namespace MobilizaAPI.Controllers
             }
         }
 
-        [HttpPut("AtivarCurso/{id}")] //status de ativo para inativo
+        [HttpPut("ativarcursation/{id}")] //status de ativo para inativo
         public async Task<ActionResult<curso>> Ativar(int id)
         {
             try
