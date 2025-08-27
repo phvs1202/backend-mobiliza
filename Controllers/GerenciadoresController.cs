@@ -157,14 +157,14 @@ namespace MobilizaAPI.Controllers
         }
 
         [HttpPut("AtivarGerenciador/{id}")] //status de inativo para ativo
-        public async Task<ActionResult<gerenciadores>> Inativar(int id)
+        public async Task<ActionResult<gerenciadores>> Ativar(int id)
         {
             try
             {
                 var gerenciadores = await _dbContext.gerenciadores.FindAsync(id);
                 gerenciadores.status_id = 2;
                 await _dbContext.SaveChangesAsync();
-                return Ok("Gerenciadores foi inativado com sucesso!");
+                return Ok("Gerenciadores foi ativado com sucesso!");
             }
             catch (Exception ex)
             {

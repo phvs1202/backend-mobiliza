@@ -268,14 +268,14 @@ namespace MobilizaAPI.Controllers
         }
 
         [HttpPut("AtivarUser/{id}")] //status de inativo para ativo
-        public async Task<ActionResult<usuarios>> Inativar(int id)
+        public async Task<ActionResult<usuarios>> Ativar(int id)
         {
             try
             {
                 var usuarios = await _dbContext.usuarios.FindAsync(id);
                 usuarios.status_id = 2;
                 await _dbContext.SaveChangesAsync();
-                return Ok("Usuário foi inativado com sucesso!");
+                return Ok("Usuário foi ativado com sucesso!");
             }
             catch (Exception ex)
             {
