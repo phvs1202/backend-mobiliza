@@ -67,19 +67,19 @@ namespace MobilizaAPI.Controllers
             return Ok(User);
         }
 
-        //[HttpGet("TodosUser")] //Trazer todos os gerenciadores
-        //public async Task<ActionResult<IEnumerable<gerenciadores>>> Get()
-        //{
-        //    try
-        //    {
-        //        var gerenciadores = await _dbContext.gerenciadores.ToListAsync();
-        //        return Ok(gerenciadores);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+        [HttpGet("TodosUser")] //Trazer todos os gerenciadores
+        public async Task<ActionResult<IEnumerable<gerenciadores>>> Get()
+        {
+            try
+            {
+                var gerenciadores = await _dbContext.gerenciadores.ToListAsync();
+                return Ok(gerenciadores);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
 
         //[HttpGet("UserEspecifico/{id}")] //Trazer gerenciador específico
         //public async Task<ActionResult<IEnumerable<gerenciadores>>> GetUser(int id)
@@ -140,20 +140,36 @@ namespace MobilizaAPI.Controllers
         //    }
         //}
 
-        //[HttpPut("InativarGerenciador/{id}")] //status de ativo para inativo
-        //public async Task<ActionResult<gerenciadores>> Inativar(int id)
-        //{
-        //    try
-        //    {
-        //        var gerenciadores = await _dbContext.gerenciadores.FindAsync(id);
-        //        gerenciadores.status_id = 2;
-        //        await _dbContext.SaveChangesAsync();
-        //        return Ok("Gerenciadores foi inativado com sucesso!");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+        [HttpPut("InativarGerenciador/{id}")] //status de ativo para inativo
+        public async Task<ActionResult<gerenciadores>> Inativar(int id)
+        {
+            try
+            {
+                var gerenciadores = await _dbContext.gerenciadores.FindAsync(id);
+                gerenciadores.status_id = 2;
+                await _dbContext.SaveChangesAsync();
+                return Ok("Gerenciadores foi inativado com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
+
+        [HttpPut("AtivarGerenciador/{id}")] //status de inativo para ativo
+        public async Task<ActionResult<gerenciadores>> Inativar(int id)
+        {
+            try
+            {
+                var gerenciadores = await _dbContext.gerenciadores.FindAsync(id);
+                gerenciadores.status_id = 2;
+                await _dbContext.SaveChangesAsync();
+                return Ok("Gerenciadores foi inativado com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
     }
 }

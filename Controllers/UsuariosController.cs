@@ -251,20 +251,36 @@ namespace MobilizaAPI.Controllers
         //    }
         //}
 
-        //[HttpPut("InativarUser/{id}")] //status de ativo para inativo
-        //public async Task<ActionResult<usuarios>> Inativar(int id)
-        //{
-        //    try
-        //    {
-        //        var usuarios = await _dbContext.usuarios.FindAsync(id);
-        //        usuarios.status_id = 2;
-        //        await _dbContext.SaveChangesAsync();
-        //        return Ok("Usuário foi inativado com sucesso!");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+        [HttpPut("InativarUser/{id}")] //status de ativo para inativo
+        public async Task<ActionResult<usuarios>> Inativar(int id)
+        {
+            try
+            {
+                var usuarios = await _dbContext.usuarios.FindAsync(id);
+                usuarios.status_id = 2;
+                await _dbContext.SaveChangesAsync();
+                return Ok("Usuário foi inativado com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
+
+        [HttpPut("AtivarUser/{id}")] //status de inativo para ativo
+        public async Task<ActionResult<usuarios>> Inativar(int id)
+        {
+            try
+            {
+                var usuarios = await _dbContext.usuarios.FindAsync(id);
+                usuarios.status_id = 2;
+                await _dbContext.SaveChangesAsync();
+                return Ok("Usuário foi inativado com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
     }
 }
