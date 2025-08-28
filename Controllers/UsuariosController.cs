@@ -273,7 +273,7 @@ namespace MobilizaAPI.Controllers
             try
             {
                 var usuarios = await _dbContext.usuarios.FindAsync(id);
-                usuarios.status_id = 2;
+                usuarios.status_id = 1;
                 await _dbContext.SaveChangesAsync();
                 return Ok("Usuário foi ativado com sucesso!");
             }

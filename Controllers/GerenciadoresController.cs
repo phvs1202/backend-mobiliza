@@ -162,7 +162,7 @@ namespace MobilizaAPI.Controllers
             try
             {
                 var gerenciadores = await _dbContext.gerenciadores.FindAsync(id);
-                gerenciadores.status_id = 2;
+                gerenciadores.status_id = 1;
                 await _dbContext.SaveChangesAsync();
                 return Ok("Gerenciadores foi ativado com sucesso!");
             }
