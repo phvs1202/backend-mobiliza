@@ -64,6 +64,7 @@ namespace MobilizaAPI.Controllers
                         tipo_usuario = usuario.tipo_usuario_id,
                         curso_id = usuario.curso_id,
                         foto_de_perfil = fotoBase64 != null ? $"data:image/jpeg;base64,{fotoBase64}" : null
+                        status_id = usuario.status_id
                     }
                 });
             }

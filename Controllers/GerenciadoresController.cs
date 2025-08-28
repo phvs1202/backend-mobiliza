@@ -36,6 +36,7 @@ namespace MobilizaAPI.Controllers
                         id = gerenciadores.id,
                         nome = gerenciadores.nome,
                         email = gerenciadores.email,
+                        status_id = gerenciadores.status_id
                     }
                 });
             }
