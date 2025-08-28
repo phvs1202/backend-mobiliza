@@ -63,7 +63,8 @@ namespace MobilizaAPI.Controllers
                         email = usuario.email,
                         tipo_usuario = usuario.tipo_usuario_id,
                         curso_id = usuario.curso_id,
-                        foto_de_perfil = fotoBase64 != null ? $"data:image/jpeg;base64,{fotoBase64}" : null
+                        foto_de_perfil = fotoBase64 != null ? $"data:image/jpeg;base64,{fotoBase64}" : null,
+                        status_id = usuario.status_id
                     }
                 });
             }
@@ -251,20 +252,36 @@ namespace MobilizaAPI.Controllers
         //    }
         //}
 
-        //[HttpPut("InativarUser/{id}")] //status de ativo para inativo
-        //public async Task<ActionResult<usuarios>> Inativar(int id)
-        //{
-        //    try
-        //    {
-        //        var usuarios = await _dbContext.usuarios.FindAsync(id);
-        //        usuarios.status_id = 2;
-        //        await _dbContext.SaveChangesAsync();
-        //        return Ok("Usuário foi inativado com sucesso!");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+        [HttpPut("InativarUser/{id}")] //status de ativo para inativo
+        public async Task<ActionResult<usuarios>> Inativar(int id)
+        {
+            try
+            {
+                var usuarios = await _dbContext.usuarios.FindAsync(id);
+                usuarios.status_id = 2;
+                await _dbContext.SaveChangesAsync();
+                return Ok("Usuário foi inativado com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
+
+        [HttpPut("AtivarUser/{id}")] //status de inativo para ativo
+        public async Task<ActionResult<usuarios>> Ativar(int id)
+        {
+            try
+            {
+                var usuarios = await _dbContext.usuarios.FindAsync(id);
+                usuarios.status_id = 1;
+                await _dbContext.SaveChangesAsync();
+                return Ok("Usuário foi ativado com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
     }
 }

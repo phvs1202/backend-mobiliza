@@ -22,7 +22,8 @@ builder.Services.AddCors(options =>
             .WithOrigins(
                 "https://mobiliza-gersite.onrender.com",
                 "https://mobilizasenailp-3hyec7d9d-iagoprogramers-projects.vercel.app",
-                "https://mobilizasenailp.vercel.app", // produção
+                "https://mobilizasenailp.vercel.app",
+                "https://mobiliza-senailp.onrender.com",
                 "http://localhost:3000",
                 "https://localhost:3000",
                 "http://localhost:5173",
