@@ -84,57 +84,57 @@ namespace MobilizaAPI.Controllers
             }
         }
 
-        //[HttpGet("TodosUser")] //Trazer todos os gerenciadores
-        //public async Task<ActionResult<IEnumerable<gerenciadores>>> Get()
-        //{
-        //    try
-        //    {
-        //        var gerenciadores = await _dbContext.gerenciadores.ToListAsync();
-        //        return Ok(gerenciadores);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+        [HttpGet("TodosUser")] //Trazer todos os gerenciadores
+        public async Task<ActionResult<IEnumerable<gerenciadores>>> Get()
+        {
+            try
+            {
+                var gerenciadores = await _dbContext.gerenciadores.ToListAsync();
+                return Ok(gerenciadores);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
 
-        //[HttpGet("UserEspecifico/{id}")] //Trazer gerenciador específico
-        //public async Task<ActionResult<IEnumerable<gerenciadores>>> GetUser(int id)
-        //{
-        //    try
-        //    {
-        //        var gerenciadores = _dbContext.gerenciadores.Where(i => i.id == id).FirstOrDefault();
-        //        return Ok(gerenciadores);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+        [HttpGet("UserEspecifico/{id}")] //Trazer gerenciador específico
+        public async Task<ActionResult<IEnumerable<gerenciadores>>> GetUser(int id)
+        {
+            try
+            {
+                var gerenciadores = _dbContext.gerenciadores.Where(i => i.id == id).FirstOrDefault();
+                return Ok(gerenciadores);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
 
-        //[HttpPut("AlterarGerenciador/{id}")] //Alterar gerenciador por id
-        //public async Task<ActionResult<gerenciadores>> Atualizar(int id, [FromBody] gerenciadores gerenciadores)
-        //{
-        //    try
-        //    {
-        //        var gerenciadorAtual = await _dbContext.gerenciadores.FindAsync(id);
+        [HttpPut("AlterarGerenciador/{id}")] //Alterar gerenciador por id
+        public async Task<ActionResult<gerenciadores>> Atualizar(int id, [FromBody] gerenciadores gerenciadores)
+        {
+            try
+            {
+                var gerenciadorAtual = await _dbContext.gerenciadores.FindAsync(id);
 
-        //        if (gerenciadorAtual == null)
-        //            return NotFound();
+                if (gerenciadorAtual == null)
+                    return NotFound();
 
-        //        gerenciadorAtual.nome = gerenciadores.nome;
-        //        gerenciadorAtual.email = gerenciadores.email;
-        //        gerenciadorAtual.senha = PasswordHasher.HashPassword(gerenciadores.senha);
+                gerenciadorAtual.nome = gerenciadores.nome;
+                gerenciadorAtual.email = gerenciadores.email;
+                gerenciadorAtual.senha = PasswordHasher.HashPassword(gerenciadores.senha);
 
-        //        _dbContext.Update(gerenciadorAtual);
-        //        await _dbContext.SaveChangesAsync();
-        //        return Ok(gerenciadorAtual);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+                _dbContext.Update(gerenciadorAtual);
+                await _dbContext.SaveChangesAsync();
+                return Ok(gerenciadorAtual);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
 
         //[HttpDelete("DeletarGerenciador/{id}")] // Deletar gerenciador específico
         //public async Task<ActionResult> Deletar(int id)
@@ -157,20 +157,36 @@ namespace MobilizaAPI.Controllers
         //    }
         //}
 
-        //[HttpPut("InativarGerenciador/{id}")] //status de ativo para inativo
-        //public async Task<ActionResult<gerenciadores>> Inativar(int id)
-        //{
-        //    try
-        //    {
-        //        var gerenciadores = await _dbContext.gerenciadores.FindAsync(id);
-        //        gerenciadores.status_id = 2;
-        //        await _dbContext.SaveChangesAsync();
-        //        return Ok("Gerenciadores foi inativado com sucesso!");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+        [HttpPut("InativarGerenciador/{id}")] //status de ativo para inativo
+        public async Task<ActionResult<gerenciadores>> Inativar(int id)
+        {
+            try
+            {
+                var gerenciadores = await _dbContext.gerenciadores.FindAsync(id);
+                gerenciadores.status_id = 2;
+                await _dbContext.SaveChangesAsync();
+                return Ok("Gerenciador foi inativado com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
+
+        [HttpPut("AtivarGerenciador/{id}")] //status de iantivo para ativo
+        public async Task<ActionResult<gerenciadores>> Ativar(int id)
+        {
+            try
+            {
+                var gerenciadores = await _dbContext.gerenciadores.FindAsync(id);
+                gerenciadores.status_id = 1;
+                await _dbContext.SaveChangesAsync();
+                return Ok("Gerenciador foi ativado com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
     }
 }
