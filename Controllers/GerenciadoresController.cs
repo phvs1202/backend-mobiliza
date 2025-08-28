@@ -67,6 +67,23 @@ namespace MobilizaAPI.Controllers
             return Ok(User);
         }
 
+        [HttpPost("ConfirmarSenha")] //Login do gerenciador
+        public IActionResult Confirmar([FromBody] string Senha)
+        {
+            try
+            {
+                string senha = "S9v#Lm2@qT8z";
+                if(Senha != senha || Senha == null)
+                    return BadRequest("Senha incorreta!");
+
+                return Ok("Senha confirmada!");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Erro ao realizar login.", erro = ex.Message });
+            }
+        }
+
         //[HttpGet("TodosUser")] //Trazer todos os gerenciadores
         //public async Task<ActionResult<IEnumerable<gerenciadores>>> Get()
         //{

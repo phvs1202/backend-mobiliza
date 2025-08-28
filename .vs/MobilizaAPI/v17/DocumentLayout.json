@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\backend-mobiliza\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\controllers\\entradacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:controllers\\entradacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\controllers\\gerenciadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:controllers\\gerenciadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EntradaController.cs",
-              "DocumentMoniker": "C:\\backend-mobiliza\\Controllers\\EntradaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EntradaController.cs",
-              "ToolTip": "C:\\backend-mobiliza\\Controllers\\EntradaController.cs",
-              "RelativeToolTip": "Controllers\\EntradaController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowCwAAAA5AAAA",
+              "Title": "GerenciadoresController.cs",
+              "DocumentMoniker": "C:\\backend-mobiliza\\Controllers\\GerenciadoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GerenciadoresController.cs",
+              "ToolTip": "C:\\backend-mobiliza\\Controllers\\GerenciadoresController.cs",
+              "RelativeToolTip": "Controllers\\GerenciadoresController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwEcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T19:42:41.923Z",
+              "WhenOpened": "2025-08-28T11:02:56.922Z",
               "EditorCaption": ""
             },
             {
