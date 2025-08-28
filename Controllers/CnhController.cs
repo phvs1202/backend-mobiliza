@@ -52,33 +52,6 @@ namespace MobilizaAPI.Controllers
         //    }
         //}
 
-
-        //[HttpPut("AlterarCnh/{id}")] //Alterar cnh por id
-        //public async Task<ActionResult<cnh>> Atualizar(int id, [FromBody] cnh cnh)
-        //{
-        //    try
-        //    {
-        //        var cnhAtual = await _dbContext.cnh.FindAsync(id);
-
-        //        if (cnhAtual == null)
-        //            return NotFound();
-
-        //        cnhAtual.data_validade = cnh.data_validade;
-        //        cnhAtual.numero_cnh = cnh.numero_cnh;
-        //        cnhAtual.categoria = cnh.categoria;
-        //        cnhAtual.usuario_id = cnh.usuario_id;
-        //        cnhAtual.status_id = cnh.status_id;
-
-        //        _dbContext.Update(cnhAtual);
-        //        await _dbContext.SaveChangesAsync();
-        //        return Ok(cnhAtual);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
-
         //[HttpDelete("DeletarCnh/{id}")] // Deletar cnh específica
         //public async Task<ActionResult> Deletar(int id)
         //{
@@ -116,6 +89,32 @@ namespace MobilizaAPI.Controllers
         //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
         //    }
         //}
+
+        [HttpPut("AlterarCnh/{id}")] //Alterar cnh por id
+        public async Task<ActionResult<cnh>> Atualizar(int id, [FromBody] cnh cnh)
+        {
+            try
+            {
+                var cnhAtual = await _dbContext.cnh.FindAsync(id);
+
+                if (cnhAtual == null)
+                    return NotFound();
+
+                cnhAtual.data_validade = cnh.data_validade;
+                cnhAtual.numero_cnh = cnh.numero_cnh;
+                cnhAtual.categoria = cnh.categoria;
+                cnhAtual.usuario_id = cnh.usuario_id;
+                cnhAtual.status_id = cnh.status_id;
+
+                _dbContext.Update(cnhAtual);
+                await _dbContext.SaveChangesAsync();
+                return Ok(cnhAtual);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
 
         [HttpGet("CnhEspecifico/{numero}")] //Procurar user por cnh
         public async Task<ActionResult<IEnumerable<usuarios>>> GetPorCNH(int numero)
