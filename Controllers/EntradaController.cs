@@ -71,6 +71,7 @@ namespace MobilizaAPI.Controllers
 
                 saida saida = new saida();
                 saida.status_id = 1;
+                saida.entrada_id = id;
                 saida.hora = horaBrasil;
 
                 _dbContext.Add(saida);
