@@ -177,19 +177,19 @@ namespace MobilizaAPI.Controllers
         }
 
 
-        //[HttpGet("UserEspecifico/{id}")] //Trazer usuário específico
-        //public async Task<ActionResult<IEnumerable<usuarios>>> GetUser(int id)
-        //{
-        //    try
-        //    {
-        //        var usuarios = _dbContext.usuarios.Where(i => i.id == id).FirstOrDefault();
-        //        return Ok(usuarios);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+        [HttpGet("UserEspecifico/{id}")] //Trazer usuário específico
+        public async Task<ActionResult<IEnumerable<usuarios>>> GetUser(int id)
+        {
+            try
+            {
+                var usuarios = _dbContext.usuarios.Where(i => i.id == id).FirstOrDefault();
+                return Ok(usuarios);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
 
         [HttpPut("AlterarUsuario/{id}")] //Alterar usuario por id
         public async Task<ActionResult<usuarios>> Atualizar(int id, [FromBody] usuarios usuarios)

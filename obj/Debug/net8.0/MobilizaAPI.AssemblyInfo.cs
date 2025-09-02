@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MobilizaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7050e8f97e885691113572663a9d1e979a25514e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e49cfe455d67cebd32183820becd2f5dc380648")]
 [assembly: System.Reflection.AssemblyProductAttribute("MobilizaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MobilizaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
