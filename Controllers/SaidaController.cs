@@ -30,20 +30,6 @@ namespace MobilizaAPI.Controllers
             }
         }
 
-        //[HttpGet("SaidaEspecifica/{id}")] //Trazer saida específica
-        //public async Task<ActionResult<IEnumerable<saida>>> GetSaida(int id)
-        //{
-        //    try
-        //    {
-        //        var saida = _dbContext.saida.Where(i => i.id == id).FirstOrDefault();
-        //        return Ok(saida);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
-
         [HttpPost("AdicionarSaida")] //Adicionar saida
         public async Task<ActionResult<saida>> AdicionarSaida([FromBody] saida saida)
         {
@@ -59,6 +45,20 @@ namespace MobilizaAPI.Controllers
                 return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
             }
         }
+
+        //[HttpGet("SaidaEspecifica/{id}")] //Trazer saida específica
+        //public async Task<ActionResult<IEnumerable<saida>>> GetSaida(int id)
+        //{
+        //    try
+        //    {
+        //        var saida = _dbContext.saida.Where(i => i.id == id).FirstOrDefault();
+        //        return Ok(saida);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+        //    }
+        //}
 
         //[HttpPut("AlterarSaida/{id}")] //Alterar saida por id
         //public async Task<ActionResult<saida>> Atualizar(int id, [FromBody] saida saida)

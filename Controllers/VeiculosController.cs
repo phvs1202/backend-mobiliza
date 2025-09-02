@@ -91,10 +91,6 @@ namespace MobilizaAPI.Controllers
                 if (arquivo == null || arquivo.Length == 0)
                     return BadRequest("Arquivo inválido.");
 
-                // Limite opcional (2MB)
-                if (arquivo.Length > 2 * 1024 * 1024)
-                    return BadRequest("Arquivo muito grande. Máximo 2MB.");
-
                 using var ms = new MemoryStream();
                 await arquivo.CopyToAsync(ms);
                 veiculo.foto = ms.ToArray();

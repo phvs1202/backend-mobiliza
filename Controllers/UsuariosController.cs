@@ -136,10 +136,6 @@ namespace MobilizaAPI.Controllers
                 if (arquivo == null || arquivo.Length == 0)
                     return BadRequest("Arquivo inválido.");
 
-                using var image = await Image.LoadAsync(arquivo.OpenReadStream());
-                if (image.Width > 400 || image.Height > 400)
-                    return BadRequest("A imagem deve ter menos de 400x400 pixels!");
-
                 // Converte a imagem em bytes para salvar no banco
                 using var ms = new MemoryStream();
                 await arquivo.CopyToAsync(ms);
@@ -180,7 +176,7 @@ namespace MobilizaAPI.Controllers
             }
         }
 
-        
+
         //[HttpGet("UserEspecifico/{id}")] //Trazer usuário específico
         //public async Task<ActionResult<IEnumerable<usuarios>>> GetUser(int id)
         //{
@@ -195,31 +191,31 @@ namespace MobilizaAPI.Controllers
         //    }
         //}
 
-        //[HttpPut("AlterarUsuario/{id}")] //Alterar usuario por id
-        //public async Task<ActionResult<usuarios>> Atualizar(int id, [FromBody] usuarios usuarios)
-        //{
-        //    try
-        //    {
-        //        var usuarioAtual = await _dbContext.usuarios.FindAsync(id);
+        [HttpPut("AlterarUsuario/{id}")] //Alterar usuario por id
+        public async Task<ActionResult<usuarios>> Atualizar(int id, [FromBody] usuarios usuarios)
+        {
+            try
+            {
+                var usuarioAtual = await _dbContext.usuarios.FindAsync(id);
 
-        //        if (usuarioAtual == null)
-        //            return NotFound();
+                if (usuarioAtual == null)
+                    return NotFound();
 
-        //        usuarioAtual.nome = usuarios.nome;
-        //        usuarioAtual.email = usuarios.email;
-        //        usuarioAtual.senha = PasswordHasher.HashPassword(usuarios.senha);
-        //        usuarioAtual.tipo_usuario_id = usuarios.tipo_usuario_id;
-        //        usuarioAtual.curso_id = usuarios.curso_id;
+                usuarioAtual.nome = usuarios.nome;
+                usuarioAtual.email = usuarios.email;
+                usuarioAtual.senha = PasswordHasher.HashPassword(usuarios.senha);
+                usuarioAtual.tipo_usuario_id = usuarios.tipo_usuario_id;
+                usuarioAtual.curso_id = usuarios.curso_id;
 
-        //        _dbContext.Update(usuarioAtual);
-        //        await _dbContext.SaveChangesAsync();
-        //        return Ok(usuarioAtual);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+                _dbContext.Update(usuarioAtual);
+                await _dbContext.SaveChangesAsync();
+                return Ok(usuarioAtual);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
 
         //[HttpDelete("DeletarUsuario/{id}")] // Deletar Usuário específico
         //public async Task<ActionResult> Deletar(int id)
