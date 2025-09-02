@@ -101,12 +101,17 @@ namespace MobilizaAPI.Controllers
         }
 
         [HttpGet("EntradaPorTipo")]
-        public async Task<ActionResult<entrada>> Entradas()
+        public async Task<ActionResult<object>> EntradasPorTipo(DateTime? dataInicio = null, DateTime? dataFim = null)
         {
             try
             {
                 var usuarios = _dbContext.usuarios.ToList();
-                var entradas = _dbContext.entrada.ToList();
+
+                var entradas = _dbContext.entrada
+                    .Where(e =>
+                        (!dataInicio.HasValue || e.hora >= dataInicio.Value) &&
+                        (!dataFim.HasValue || e.hora <= dataFim.Value))
+                    .ToList();
 
                 var entradasPorTipo = from entrada in entradas
                                       join usuario in usuarios on entrada.usuarios_id equals usuario.id
@@ -132,6 +137,7 @@ namespace MobilizaAPI.Controllers
                 return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
             }
         }
+
         //[HttpGet("DoisMeses")] //Procurar usuários que não entram há 2 meses
         //public async Task<ActionResult<IEnumerable<entrada>>> doisMeses()
         //{
