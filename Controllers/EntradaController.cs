@@ -73,6 +73,7 @@ namespace MobilizaAPI.Controllers
                 saida.status_id = 1;
                 saida.hora = horaBrasil;
 
+                _dbContext.Add(saida);
                 await _dbContext.SaveChangesAsync();
                 return Ok("Entrada foi inativado com sucesso!");
             }
