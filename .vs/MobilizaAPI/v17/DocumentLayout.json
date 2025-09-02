@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\backend-mobiliza\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\controllers\\entradacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:controllers\\entradacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\model\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:model\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\controllers\\saidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:controllers\\saidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\model\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|solutionrelative:model\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{033C6D3B-6A77-BFA2-85AE-1E2EA556ED4F}|MobilizaAPI.csproj|c:\\backend-mobiliza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntradaController.cs",
+              "DocumentMoniker": "C:\\backend-mobiliza\\Controllers\\EntradaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EntradaController.cs",
+              "ToolTip": "C:\\backend-mobiliza\\Controllers\\EntradaController.cs",
+              "RelativeToolTip": "Controllers\\EntradaController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwD8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T14:12:52.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SaidaController.cs",
+              "DocumentMoniker": "C:\\backend-mobiliza\\Controllers\\SaidaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SaidaController.cs",
+              "ToolTip": "C:\\backend-mobiliza\\Controllers\\SaidaController.cs",
+              "RelativeToolTip": "Controllers\\SaidaController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T14:11:57.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "usuarios.cs",
               "DocumentMoniker": "C:\\backend-mobiliza\\Model\\usuarios.cs",
               "RelativeDocumentMoniker": "Model\\usuarios.cs",
@@ -46,8 +76,7 @@
               "RelativeToolTip": "Model\\usuarios.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAxwAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T13:46:06.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T13:46:06.441Z"
             },
             {
               "$type": "Document",
@@ -64,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\backend-mobiliza\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -77,20 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VeiculosController.cs",
-              "DocumentMoniker": "C:\\backend-mobiliza\\Controllers\\VeiculosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VeiculosController.cs",
-              "ToolTip": "C:\\backend-mobiliza\\Controllers\\VeiculosController.cs",
-              "RelativeToolTip": "Controllers\\VeiculosController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAADwvyEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:00:30.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\backend-mobiliza\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

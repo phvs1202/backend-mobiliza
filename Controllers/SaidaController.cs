@@ -35,8 +35,14 @@ namespace MobilizaAPI.Controllers
         {
             try
             {
-                _dbContext.saida.Add(saida);
+                DateTime horaEntrada = DateTime.UtcNow;
+                TimeZoneInfo tz = TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time");
+                DateTime horaBrasil = TimeZoneInfo.ConvertTimeFromUtc(horaEntrada, tz);
+
                 saida.status_id = 1;
+                saida.hora = horaBrasil;
+
+                _dbContext.saida.Add(saida);
                 await _dbContext.SaveChangesAsync();
                 return Ok(saida);
             }

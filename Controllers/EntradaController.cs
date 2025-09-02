@@ -64,6 +64,15 @@ namespace MobilizaAPI.Controllers
             {
                 var entrada = await _dbContext.entrada.FindAsync(id);
                 entrada.status_id = 2;
+
+                DateTime horaEntrada = DateTime.UtcNow;
+                TimeZoneInfo tz = TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time");
+                DateTime horaBrasil = TimeZoneInfo.ConvertTimeFromUtc(horaEntrada, tz);
+
+                saida saida = new saida();
+                saida.status_id = 1;
+                saida.hora = horaBrasil;
+
                 await _dbContext.SaveChangesAsync();
                 return Ok("Entrada foi inativado com sucesso!");
             }
