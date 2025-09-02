@@ -16,19 +16,19 @@ namespace MobilizaAPI.Controllers
             _dbContext = dbContext;
         }
 
-        //[HttpGet("TodasSaidas")] //Trazer todos as saidas
-        //public async Task<ActionResult<IEnumerable<saida>>> Get()
-        //{
-        //    try
-        //    {
-        //        var saidas = await _dbContext.saida.ToListAsync();
-        //        return Ok(saidas);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+        [HttpGet("TodasSaidas")] //Trazer todos as saidas
+        public async Task<ActionResult<IEnumerable<saida>>> Get()
+        {
+            try
+            {
+                var saidas = await _dbContext.saida.ToListAsync();
+                return Ok(saidas);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
 
         //[HttpGet("SaidaEspecifica/{id}")] //Trazer saida específica
         //public async Task<ActionResult<IEnumerable<saida>>> GetSaida(int id)
@@ -44,21 +44,21 @@ namespace MobilizaAPI.Controllers
         //    }
         //}
 
-        //[HttpPost("AdicionarSaida")] //Adicionar saida
-        //public async Task<ActionResult<saida>> AdicionarSaida([FromBody] saida saida)
-        //{
-        //    try
-        //    {
-        //        _dbContext.saida.Add(saida);
-        //        saida.status_id = 1;
-        //        await _dbContext.SaveChangesAsync();
-        //        return Ok(saida);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
-        //    }
-        //}
+        [HttpPost("AdicionarSaida")] //Adicionar saida
+        public async Task<ActionResult<saida>> AdicionarSaida([FromBody] saida saida)
+        {
+            try
+            {
+                _dbContext.saida.Add(saida);
+                saida.status_id = 1;
+                await _dbContext.SaveChangesAsync();
+                return Ok(saida);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{ex.Message} - Detalhes: {ex.InnerException?.Message}");
+            }
+        }
 
         //[HttpPut("AlterarSaida/{id}")] //Alterar saida por id
         //public async Task<ActionResult<saida>> Atualizar(int id, [FromBody] saida saida)

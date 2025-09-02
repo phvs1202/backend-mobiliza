@@ -74,6 +74,9 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
+app.UseSwagger();
+app.UseSwaggerUI();
+
 app.UseStaticFiles(); // Serve os arquivos do React
 
 app.UseRouting();
